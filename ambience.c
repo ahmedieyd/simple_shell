@@ -21,7 +21,6 @@ void free_env(void)
 }
 
 /**
- *
  * _getenv - Gets an environmental variable from the PATH.
  *
  * @var: The name of the environmental variable to get.
@@ -83,5 +82,4 @@ char **_copyenv(void)
 
 	return (new_environ);
 }
-
 
